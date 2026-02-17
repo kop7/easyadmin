@@ -68,6 +68,6 @@ The container entrypoint automatically:
 
 ## Notes
 
-- Default dev and test environments both use SQLite (`var/data.db` for dev and `var/data_test.db` for test).
+- Default dev and test environments both use SQLite (`var/mockcem.sqlite` for dev and `var/mockcem_test.sqlite` for test).
 - This project is scaffolded manually because dependency download from Packagist may be restricted in some CI/sandbox environments.
 - On a normal machine with internet access, `composer install` in Docker/local should fetch all packages and run normally.
