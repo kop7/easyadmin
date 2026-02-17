@@ -10,4 +10,4 @@ services:
     environment:
       APP_ENV: dev
       APP_DEBUG: 1
-      DATABASE_URL: sqlite:////app/var/data.db
+      DATABASE_URL: sqlite:////app/var/mockcem.sqlite
